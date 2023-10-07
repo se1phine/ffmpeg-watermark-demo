@@ -1,0 +1,36 @@
+{
+  "name": "ffmpeg-watermark-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ffmpeg/core": "^0.12.3",
+    "@ffmpeg/core-mt": "^0.12.3",
+    "@ffmpeg/ffmpeg": "^0.12.6",
+    "@ffmpeg/util": "^0.12.1",
+    "antd": "^5.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "video-react": "^0.16.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.23",
+    "@types/react-dom": "^18.2.7",
+    "@types/video-react": "^0.15.2",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "@vitejs/plugin-react": "^4.1.0",
+    "eslint": "^8.50.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vite-plugin-static-copy": "^0.17.0"
+  }
+}

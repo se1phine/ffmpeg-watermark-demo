@@ -1,0 +1,29 @@
+body {
+  padding: 0 12px;
+}
+
+.logger {
+  background: #fff;
+  max-height: 400px;
+}
+
+.logger code {
+  display: block;
+  line-height: 2;
+}
+
+.main-page > div {
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.video-player {
+  margin-bottom: 10px;
+}
+
+.first-frame {
+  width: 100%;
+}
